@@ -12,11 +12,11 @@ const routes: Routes = [
     path: '',
     component: MapsLayoutComponent,  
     children: [
-      { path: 'fullscreen', component: FullScreenPageComponent }, // Corrected 'Component'
-      { path: 'zoom-range', component: ZoomRangePageComponent },  // Corrected 'Component'
-      { path: 'markers', component: MarkesPageComponent },        // Corrected 'Component'
-      { path: 'properties', component: PropertiesPageComponent }, // Corrected 'Component'
-      { path: '**', redirectTo: 'fullscreen' },                   // Corrected 'redirecTo'
+      { path: 'fullscreen', component: FullScreenPageComponent },
+      { path: 'zoom-range', component: ZoomRangePageComponent },  
+      { path: 'markers', component: MarkesPageComponent },        
+      { path: 'properties', component: PropertiesPageComponent }, 
+      { path: '**', redirectTo: 'fullscreen' },                 
     ]
   }
 ];
